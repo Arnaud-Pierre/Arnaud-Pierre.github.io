@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Neutraface2TextDemi;
+  src: url("../fonts/Neutraface2TextDemi.woff2");
+ }
+
+ html{
+   overflow: hidden;
+   overflow-x: hidden;
+ }
+
+body{
+  position: relative;
+  margin: 0 auto;
+  font-family: 'Neutraface2TextDemi';
+  
+ 
+}
+
+.site{
+  width: 100%;
+  position: relative;
+}
+
+.caracteristiques{
+   color: #f6f7fa;
+   margin-top: 50px;
+   margin-right: 50px;
+   font-size: 25px;
+   position: absolute;
+   line-height: 40px;
+   border-radius: 4%;
+   padding: 20px;
+}
+
+.brosse{
+  right:15%;
+  height:700px;
+
+  top: 5%;
+
+  position: absolute;
+}
+
+
+.fond3{
+  width: 3000px;
+}
+
+h1{
+  position: absolute;
+  color: white;
+  top:1%;
+  right:40%;
+
+}
+
+@media screen and (max-width:1500px){
+  .brosse{
+    top:20%;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .brosse{
+    display: none;
+  }
+
+  
+  .caracteristiques{
+    font-size: 20px;
+
+  } 
+
+  }
+
+  @media screen and (max-width:550px){
+    .caracteristiques{
+      font-size: 15px;
+    }
+  }
+
+
+
+     
