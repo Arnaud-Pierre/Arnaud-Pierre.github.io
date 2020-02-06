@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <title> oral-b</title>
+    <meta name="description" content="description de ma page"/>
+    <link rel="stylesheet" href="styles\main2.css">
+  </head>
+   <div>
+    <img src="images/brosse a dent.png" alt="brosse a dent" class="brosse">
+    <body id="forumm">
+     <form id=paiement>
+     <fieldset>
+       <legend>Votre identité :</legend>
+       <ol>
+         <li>
+           <label for=nom>Nom :</label>
+           <input id=nom name=nom type=text placeholder="Prénom et nom" required autofocus>
+         </li>
+         <li>
+           <label for=email>Email :</label>
+           <input id=email name=email type=email required>
+         </li>
+         <li>
+           <label for=telephone>Téléphone :</label>
+           <input id=telephone name=telephone type=tel required>
+         </li>
+       </ol>
+     </fieldset>
+
+     <fieldset>
+       <legend>Adresse de livraison :</legend>
+         <ol>
+           <li>
+             <label for=adresse>Adresse:</label>
+             <textarea id=adresse name=adresse rows=5 required></textarea>
+           </li>
+           <li>
+             <label for=codepostal>Code postal :</label>
+             <input id=codepostal name=codepostal type=text required>
+           </li>
+             <li>
+             <label for=pays>Pays :</label>
+             <input id=pays name=pays type=text required>
+           </li>
+         </ol>
+       </fieldset>
+       <fieldset>
+       <button type=submit>Je deviens VIP</button>
+       </fieldset>
+     </form>
+    </body>
+   </div>
+</html>

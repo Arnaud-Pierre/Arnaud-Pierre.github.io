@@ -1,0 +1,1731 @@
+@font-face {
+  font-family: Neutraface2TextDemi;
+  src: url("../fonts/Neutraface2TextDemi.woff2");
+
+ }
+
+ @font-face {
+  font-family: Neutraface2TextBook;
+  src: url("../fonts/Neutraface2TextBook.woff2");
+
+ }
+
+ .ctr{
+   width: 152px;
+ }
+ .suite{
+   position:absolute;
+   font-style: normal;
+   color:white;
+   cursor: pointer;
+   width: 105px;
+   height: 30px;
+   text-decoration: none;
+   border: 1.0px solid  white;
+   margin-right:10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   bottom: 30px;
+   right:20px
+
+ }
+
+
+ .fleche2{
+   
+ }
+
+ .suite span{
+   font-size: 15px;
+ }
+
+ .bouttonheader2{
+  font-family:Neutraface 2 Text Demi.ttf;
+  font-style: normal;
+  border-radius: 72px;
+  color: #0057b8;
+  cursor: pointer;
+  height: 0.8rem;
+  padding:10px 25px;
+  text-decoration: none;
+  border: 1.5px solid  #0057b8;
+  margin-right:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:15px;
+ }
+
+ .bouttonheader2:hover{
+   background-color: #0057b8 ;
+   color:white ;
+ }
+
+
+
+ .oral a{
+
+ }
+
+
+
+body{
+  background-color:rgba(136, 136, 136, 0.877);
+  margin: 0;
+  font-family: 'Neutraface2TextDemi';
+}
+
+
+#revolution{
+  background-color:#f5f6fa;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -5px;;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  line-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.oralresponsive{
+  width: 100%;
+  display:none;
+}
+
+header{
+  width:auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#0057b8;
+  padding-top:10px;
+  padding-bottom:10px;
+  height: 50px;
+
+}
+
+.fleche{
+  position:absolute;
+  top:88%;
+  left: 48%;
+  width:3%;
+  bottom:5%;
+
+}
+
+.fleche2{
+  position:absolute;
+  top:92%;
+  left: 48%;
+  width:3%;
+  bottom:5%;
+
+
+}
+
+
+.logo{
+  width:110px;
+  height: 38px;
+
+}
+
+
+.boutton a{
+  font-family:Neutraface 2 Text Demi.ttf;
+  font-style: normal;
+  border-radius: 72px;
+  color: #fff;
+  cursor: pointer;
+  height: 0.8rem;
+  padding:10px 25px;
+  text-decoration: none;
+  border: 1.5px solid #fff;
+  margin-right:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.boutton2 {
+  font-family:Neutraface 2 Text Demi.ttf;
+  font-style: normal;
+  border-radius: 72px;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 18%;
+  right:200PX;
+  text-decoration: none;
+  border: 1.5px solid #fff;
+  width:400px;
+  height:60px;
+  padding-top:17px;
+  text-align: center;
+  font-size:30px;
+}
+
+.boutton2:hover{
+  background-color:white;
+  color: #0057b8;
+}
+
+.caracteristiques{
+  position:absolute;
+  top:30%;
+  left:42%;
+  width: 500px;
+  font-size: 22px;
+  color: white;
+  display: none;
+}
+
+.boutton2:hover + .caracteristiques{
+  display: block;
+
+}
+
+.boutton3{
+  font-family:Neutraface 2 Text Demi.ttf;
+  font-style: normal;
+  border-radius: 72px;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 18%;
+  right: 700PX;
+  text-decoration: none;
+  border: 1.5px solid #fff;
+  width:400px;
+  height:60px;
+  padding-top:17px;
+  text-align: center;
+  font-size:30px;
+}
+
+.boutton3:hover{
+  background-color:white;
+  color: #0057b8;
+}
+
+.caracteristiques2{
+  position:absolute;
+  top:30%;
+  left:42%;
+  width:400px;
+  font-size: 23px;
+  color: white;
+  display: none;
+}
+
+.boutton3:hover + .caracteristiques2{
+  display: block;
+
+}
+
+
+
+
+
+
+
+
+a span{
+  font-family: Neutraface 2 Text Demi.ttf;
+}
+
+.boutton{
+  display: flex;
+
+
+}
+
+a:hover{
+  background-color: rgb(255, 255, 255);
+color: #0057b8;
+transition: 0.2s;
+}
+
+.line{
+  width: auto;
+  background-color: rgba(182, 182, 182, 0.877);
+  height: 5px;
+}
+
+.headerspan{
+  font-size: 22px;
+  color: white;
+}
+
+.brush1{
+  width:100%;
+
+}
+.brush{
+width:100%;
+
+}
+
+.brosse1{
+  position: relative;
+}
+
+.brosse2{
+  position:absolute;
+  width: 21%;
+  left: 15%;
+  bottom: 5px;
+
+}
+
+.lenettoyage{
+  position: absolute;
+  font-family: 'Neutraface2TextBook';
+  top: 50%;
+  left:43%;
+  font-size:27px;
+  color:white;
+
+  
+
+}
+
+body{
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+footer{
+  background-color: #f5f6fa;
+  height:200px;
+  margin-top: -9px;
+  width:auto;
+  padding-bottom: 20px;
+
+}
+
+
+#oral{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 24px;
+
+}
+
+
+
+.oral{
+
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+
+}
+
+#reseausociaux{
+  margin-right: 50px;
+  width:20%;
+  display: flex;
+  justify-content:center;
+}
+
+#reseausociaux a:hover{
+  text-decoration: none;
+  background-color:#f5f6fa ;
+}
+
+.oral a{
+  margin-right: 10px;
+  text-align: center;
+
+
+
+
+
+}
+
+#contactez{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color :#0057b8;
+  cursor: pointer;
+  text-decoration:none;
+  
+}
+
+
+
+#contactez:hover{
+  color : white;
+  text-decoration:none;
+  background-color:#0057b8;;
+
+}
+
+.contactez:hover{
+  color : white;
+  background-color: #0057b8;
+}
+
+.contactez{
+  font-family:Neutraface 2 Text Demi.ttf;
+  font-style: normal;
+  border-radius: 72px;
+  color: #0057b8;
+  cursor: pointer;  ;
+  height: 0.8rem;
+  padding:10px 25px;
+  text-decoration: none;
+  border: 1.5px solid #0057b8;
+  margin-top:15px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+#reseausociaux img{
+  height: 50px;
+  padding-top: 12px;
+}
+
+#reseausociaux img:hover{
+  background-color: #f5f6fa;
+  text-decoration: none;
+  padding-top: 12px;
+}
+
+.oralb1{
+  width:100%;
+
+}
+
+
+.oralreseau{
+  margin-top:15px;
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+
+}
+
+.whithen{
+  position: relative;
+  
+}
+
+.objectif{
+  width: 100%;
+  position: relative;
+
+}
+
+.objimage{
+  width:100%;
+
+}
+
+.objectif span{
+
+  position: absolute;
+  width:500px;
+  height: 100px;
+  top:10%;
+  left:25%;
+  color: white;
+  font-size: 30px;
+  font-family: 'Neutraface2TextBook';
+
+
+}
+
+
+.imageResponsive{
+  display: none;
+}
+
+
+
+
+
+@media screen and (max-width:1600px){
+
+
+
+  .boutton2 {
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    right:200PX;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    width:280px;
+    height:30px;
+    padding-top:6px;
+    text-align: center;
+    font-size:20px;
+  }
+
+  .boutton3{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    width:280px;
+    height:30px;
+    padding-top:6px;
+    text-align: center;
+    font-size:20px;
+  }
+  
+
+  .objectif span{
+
+    position: absolute;
+    width:500px;
+    height: 100px;
+    top:10%;
+    left:25%;
+    color: white;
+    font-size: 27px;
+    font-family: 'Neutraface2TextBook';
+  
+  
+  }
+
+
+  .lenettoyage{
+    position: absolute;
+    font-family: 'Neutraface2TextBook';
+    top: 50%;
+    left:43%;
+    font-size:25px;
+    color:white;
+  
+    
+  
+  }
+  
+
+  body{
+    margin: 0;
+    font-family: 'Neutraface2TextDemi';
+  }
+
+  .oralb1{
+    width:100%;
+  }
+
+  header{
+    width:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0057b8;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 50px;
+
+  }
+
+  .logo{
+    width:110px;
+    height: 38px;
+  }
+
+
+  .bouttonheader{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    height: 0.8rem;
+    padding:10px 25px;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    widows: 50px;
+  }
+
+
+  a span{
+    font-family: Neutraface 2 Text Demi.ttf;
+  }
+
+  .boutton{
+    display: flex;
+
+
+  }
+
+  a:hover{
+    background-color: rgb(255, 255, 255);
+  color: #0057b8;
+  transition: 0.2s;
+  }
+
+  .line{
+    width: auto;
+    background-color: rgba(60, 255, 0, 0.877);
+    height: 5px;
+  }
+
+  .headerspan{
+    font-size: 22px;
+    color: white;
+  }
+
+  .brush1{
+    width:100%;
+
+  }
+  .brush{
+  width:100%;
+
+  }
+
+  .imageResponsive{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:1400px){
+
+  .whithen p{
+    font-size: 15px;
+    left:30%;
+  }
+
+  .boutton2 {
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    right:200PX;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    width:280px;
+    height:30px;
+    padding-top:6px;
+    text-align: center;
+    font-size:20px;
+  }
+
+  .boutton3{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    right:500px;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    width:280px;
+    height:30px;
+    padding-top:6px;
+    text-align: center;
+    font-size:20px;
+  }
+  
+
+  .objectif span{
+
+    position: absolute;
+    width:500px;
+    height: 100px;
+    top:10%;
+    left:25%;
+    color: white;
+    font-size: 27px;
+    font-family: 'Neutraface2TextBook';
+  
+  
+  }
+
+
+  .lenettoyage{
+    position: absolute;
+    font-family: 'Neutraface2TextBook';
+    top: 50%;
+    left:43%;
+    font-size:25px;
+    color:white;
+  
+    
+  
+  }
+  
+
+  body{
+    margin: 0;
+    font-family: 'Neutraface2TextDemi';
+  }
+
+  .oralb1{
+    width:100%;
+  }
+
+  header{
+    width:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0057b8;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 50px;
+
+  }
+
+  .logo{
+    width:110px;
+    height: 38px;
+  }
+
+
+  .bouttonheader{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    height: 0.8rem;
+    padding:10px 25px;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a span{
+    font-family: Neutraface 2 Text Demi.ttf;
+  }
+
+  .boutton{
+    display: flex;
+
+
+  }
+
+  a:hover{
+    background-color: rgb(255, 255, 255);
+  color: #0057b8;
+  transition: 0.2s;
+  }
+
+  .line{
+    width: auto;
+    background-color: rgba(60, 255, 0, 0.877);
+    height: 5px;
+  }
+
+  .headerspan{
+    font-size: 22px;
+    color: white;
+  }
+
+  .brush1{
+    width:100%;
+
+  }
+  .brush{
+  width:100%;
+
+  }
+
+  .imageResponsive{
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width:1300px){
+
+  .boutton2 {
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    right:200PX;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    width:280px;
+    height:30px;
+    padding-top:6px;
+    text-align: center;
+    font-size:20px;
+  }
+
+  .boutton3{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    width:280px;
+    height:30px;
+    padding-top:6px;
+    text-align: center;
+    font-size:20px;
+  }
+  
+
+  .objectif span{
+
+    position: absolute;
+    width:500px;
+    height: 100px;
+    top:10%;
+    left:25%;
+    color: white;
+    font-size: 27px;
+    font-family: 'Neutraface2TextBook';
+  
+  
+  }
+
+
+  .lenettoyage{
+    position: absolute;
+    font-family: 'Neutraface2TextBook';
+    top: 50%;
+    left:43%;
+    font-size:25px;
+    color:white;
+  
+    
+  
+  }
+  
+
+  body{
+    margin: 0;
+    font-family: 'Neutraface2TextDemi';
+  }
+
+  .oralb1{
+    width:100%;
+  }
+
+  header{
+    width:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0057b8;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 50px;
+
+  }
+
+  .logo{
+    width:110px;
+    height: 38px;
+  }
+
+
+  .bouttonheader{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    height: 0.8rem;
+    padding:10px 25px;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a span{
+    font-family: Neutraface 2 Text Demi.ttf;
+  }
+
+  .boutton{
+    display: flex;
+
+
+  }
+
+  a:hover{
+    background-color: rgb(255, 255, 255);
+  color: #0057b8;
+  transition: 0.2s;
+  }
+
+  .line{
+    width: auto;
+    background-color: rgba(60, 255, 0, 0.877);
+    height: 5px;
+  }
+
+  .headerspan{
+    font-size: 22px;
+    color: white;
+  }
+
+  .brush1{
+    width:100%;
+
+  }
+  .brush{
+  width:100%;
+
+  }
+
+  .imageResponsive{
+    display: none;
+  }
+
+}
+
+
+
+
+@media screen and (max-width:1250px){
+
+
+  
+  .boutton2 {
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    width:240px;
+    height:25px;
+    padding-top:3px;
+    text-align: center;
+    font-size:15px;
+  }
+
+  .boutton3{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left:none;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    width:240px;
+    height:25px;
+    padding-top:3px;
+    text-align: center;
+    font-size:15px;
+  }
+  
+
+
+  
+
+  .objectif span{
+
+    position: absolute;
+    width:500px;
+    height: 100px;
+    top:10%;
+    left:25%;
+    color: white;
+    font-size: 24px;
+    font-family: 'Neutraface2TextBook';
+  
+  
+  }
+
+
+  .lenettoyage{
+    position: absolute;
+    font-family: 'Neutraface2TextBook';
+    top: 50%;
+    left:43%;
+    font-size:20px;
+    color:white;
+  
+    
+  
+  }
+  
+
+  body{
+    margin: 0;
+    font-family: 'Neutraface2TextDemi';
+  }
+
+  .oralb1{
+    width:100%;
+  }
+
+  header{
+    width:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0057b8;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 50px;
+
+  }
+
+  .logo{
+    width:110px;
+    height: 38px;
+  }
+
+
+  .bouttonheader{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    height: 0.8rem;
+    padding:10px 25px;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a span{
+    font-family: Neutraface 2 Text Demi.ttf;
+  }
+
+  .boutton{
+    display: flex;
+
+
+  }
+
+  a:hover{
+    background-color: rgb(255, 255, 255);
+  color: #0057b8;
+  transition: 0.2s;
+  }
+
+  .line{
+    width: auto;
+    background-color: rgba(60, 255, 0, 0.877);
+    height: 5px;
+  }
+
+  .headerspan{
+    font-size: 22px;
+    color: white;
+  }
+
+  .brush1{
+    width:100%;
+
+  }
+
+  .brush{
+  width:100%;
+
+  }
+
+  .imageResponsive{
+    display: none;
+  }
+
+  #oral{
+    width: 600px;
+  }
+
+  .oral{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+@media screen and (max-width:1056px){
+
+  footer{
+    height: 250px;;
+  }
+}
+
+@media screen and (max-width:1024px){
+
+  .oralb1{
+    display: none;
+  }
+
+  .oralresponsive{
+    display: block;
+  }
+
+
+  .objectif span{
+
+    position: absolute;
+    width:400px;
+    height: 100px;
+    top:10%;
+    left:25%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Neutraface2TextBook';
+  
+  
+  }
+
+  .lenettoyage{
+    position: absolute;
+    font-family: 'Neutraface2TextBook';
+    top: 50%;
+    left:43%;
+    font-size:18px;
+    color:white;
+
+  
+    
+  
+  }
+  
+
+  body{
+    margin: 0;
+    font-family: 'Neutraface2TextDemi';
+  }
+
+  .oralb1{
+    width:100%;
+  }
+
+  header{
+    width:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0057b8;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 50px;
+
+  }
+
+  .logo{
+    width:110px;
+    height: 38px;
+  }
+
+
+  .bouttonheader{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    height: 0.8rem;
+    padding:10px 25px;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a span{
+    font-family: Neutraface 2 Text Demi.ttf;
+  }
+
+  .boutton{
+    display: flex;
+
+
+  }
+
+  a:hover{
+    background-color: rgb(255, 255, 255);
+  color: #0057b8;
+  transition: 0.2s;
+  }
+
+  .line{
+    width: auto;
+    background-color: rgba(60, 255, 0, 0.877);
+    height: 5px;
+  }
+
+  .headerspan{
+    font-size: 22px;
+    color: white;
+  }
+
+  .brush1{
+    width:100%;
+
+  }
+  .brush{
+  width:100%;
+
+  }
+
+  .imageResponsive{
+    display: none;
+  }
+
+  
+
+}
+
+@media screen and (max-width:990px){
+  header span{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:950px){
+  
+
+
+  .objectif span{
+
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top:10%;
+    left:25%;
+    color: white;
+    font-size: 18px;
+    font-family: 'Neutraface2TextBook';
+  
+  
+  }
+
+  .lenettoyage{
+    position: absolute;
+    font-family: 'Neutraface2TextBook';
+    top: 50%;
+    left:43%;
+    font-size:15px;
+    color:white;
+    display:none; 
+  
+    
+  
+  }
+  
+
+  body{
+    margin: 0;
+    font-family: 'Neutraface2TextDemi';
+  }
+
+  .oralb1{
+    width:100%;
+  }
+
+  header{
+    width:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0057b8;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 50px;
+
+  }
+
+  .logo{
+    width:110px;
+    height: 38px;
+  }
+
+
+  .bouttonheader{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    height: 0.8rem;
+    padding:10px 25px;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a span{
+    font-family: Neutraface 2 Text Demi.ttf;
+  }
+
+  .boutton{
+    display: flex;
+
+
+  }
+
+  a:hover{
+    background-color: rgb(255, 255, 255);
+  color: #0057b8;
+  transition: 0.2s;
+  }
+
+  .line{
+    width: auto;
+    background-color: rgba(60, 255, 0, 0.877);
+    height: 5px;
+  }
+
+  .headerspan{
+    font-size:18px;
+    color: white;
+  }
+
+  .brush1{
+    width:100%;
+
+  }
+  .brush{
+  width:100%;
+  display: none;
+
+  }
+
+  .imageResponsive{
+    width: 100%;
+    display: block;
+  }
+
+  .brosse2{
+    display: none;
+  }
+
+
+}
+
+@media screen and (max-width:840px){
+   .headerspan{
+     font-size: 14px;
+   }
+}
+
+@media screen and (max-width:825px){
+
+  .whithen p{
+    font-size: 12px;
+    left:12%;
+    width: 300px;
+  }
+
+  .boutton2{
+    left: 240px;
+    font-size: 12px;
+    width: 150px;
+    height:20px
+
+  }
+
+  .boutton3{
+    left:70px;
+    font-size:12px;
+    width:150px;
+    height:20px;
+  }
+
+
+  .objectif span{
+
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top:10%;
+    left:25%;
+    color: white;
+    font-size: 18px;
+    font-family: 'Neutraface2TextBook';
+  
+  
+  }
+
+  .lenettoyage{
+    position: absolute;
+    font-family: 'Neutraface2TextBook';
+    top: 50%;
+    left:43%;
+    font-size:15px;
+    color:white;
+    display:none; 
+  
+    
+  
+  }
+  
+
+  body{
+    margin: 0;
+    font-family: 'Neutraface2TextDemi';
+  }
+
+  .oralb1{
+    width:100%;
+  }
+
+  header{
+    width:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0057b8;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 50px;
+
+  }
+
+  .logo{
+    width:110px;
+    height: 38px;
+  }
+
+
+  .bouttonheader{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    height: 0.8rem;
+    padding:10px 25px;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a span{
+    font-family: Neutraface 2 Text Demi.ttf;
+  }
+
+  .boutton{
+    display: flex;
+
+
+  }
+
+  a:hover{
+    background-color: rgb(255, 255, 255);
+  color: #0057b8;
+  transition: 0.2s;
+  }
+
+  .line{
+    width: auto;
+    background-color: rgba(60, 255, 0, 0.877);
+    height: 5px;
+  }
+
+  .headerspan{
+    font-size:14px;
+    color: white;
+  }
+
+  .brush1{
+    width:100%;
+
+  }
+  .brush{
+  width:100%;
+  display: none;
+
+  }
+
+  .imageResponsive{
+    width: 100%;
+    display: block;
+  }
+
+  .brosse2{
+    display: none;
+  }
+
+
+
+
+}
+
+@media screen and (max-width:750px){
+  .logo{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:650px){
+
+  #oral{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 30px;
+  }
+
+  .objectif span{
+
+    position: absolute;
+    width:300px;
+    height: 100px;
+    top:10%;
+    left:25%;
+    color: white;
+    font-size: 15px;
+    font-family: 'Neutraface2TextBook';
+  
+  
+  }
+
+  .brosse2{
+    display:none;
+  }
+
+  body{
+    margin: 0;
+    font-family: 'Neutraface2TextDemi';
+  }
+
+  
+  .lenettoyage{
+    position: absolute;
+    font-family: 'Neutraface2TextBook';
+    top: 50%;
+    left:43%;
+    font-size:18px;
+    color:white;
+    display: none;
+  
+    
+  
+  }
+
+  .oralb1{
+    width:100%;
+  }
+
+  header{
+    width:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0057b8;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 50px;
+
+  }
+
+  .logo{
+    width:110px;
+    height: 38px;
+  }
+
+
+  .bouttonheader{
+    font-family:Neutraface 2 Text Demi.ttf;
+    font-style: normal;
+    border-radius: 72px;
+    color: #fff;
+    cursor: pointer;
+    height: 0.8rem;
+    padding:10px 25px;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bouttonheader2{
+    width: 130px;
+  }
+
+  .contactez{
+    width: 130px;
+    text-align: center;
+  }
+
+  a span{
+    font-family: Neutraface 2 Text Demi.ttf;
+    font-size:15px;
+  }
+
+  .boutton{
+    display: flex;
+
+
+  }
+
+  a:hover{
+    background-color: rgb(255, 255, 255);
+  color: #0057b8;
+  transition: 0.2s;
+  }
+
+  .line{
+    width: auto;
+    background-color: rgba(60, 255, 0, 0.877);
+    height: 5px;
+  }
+
+  .headerspan{
+    font-size:14px;
+    color: white;
+  }
+
+  .brush1{
+    width:100%;
+
+  }
+  .brush{
+  width:100%;
+
+  }
+
+  .imageResponsive{
+    width: 100%;
+    display: block;
+  }
+
+  footer{
+    height: 330px;
+  }
+
+
+}
+
+
+
+
+<style type="text/css">
+.form-style-4{
+	width: 450px;
+	font-size: 16px;
+	background: #495C70;
+	padding: 30px 30px 15px 30px;
+	border: 5px solid #53687E;
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #fff;
+
+}
+.form-style-4 label {
+	display:block;
+	margin-bottom: 10px;
+}
+.form-style-4 label > span{
+	display: inline-block;
+	float: left;
+	width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=email]
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	outline: none;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+}
+.form-style-4 textarea{
+	font-style: italic;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	overflow: hidden;
+	resize:none;
+	height:20px;
+}
+
+.form-style-4 textarea:focus,
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+	border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+	background: #576E86;
+	border: none;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+	color: #A8BACE;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #394D61;
+}
+</style>

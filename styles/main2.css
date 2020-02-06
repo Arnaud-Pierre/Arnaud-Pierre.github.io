@@ -1,0 +1,257 @@
+@font-face {
+  font-family: Neutraface2TextDemi;
+  src: url("../fonts/Neutraface2TextDemi.woff2");
+ }
+
+html{
+  position: relative;
+  height: 100px;
+}
+
+
+
+html, body, h1, form, fieldset, legend, ol, li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Neutraface2TextDemi';
+}
+
+#forumm{
+  background: url(../images/esp.jpg) no-repeat;
+  background-color:#f6f7fa ;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+
+}
+
+#paiement{
+  height: 700px;
+  
+}
+
+div{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.brosse{
+  width:170px;
+}
+
+
+form#paiement {
+
+  background: #2f2f30;
+  padding: 20px;
+  width: 400px;
+  -moz-box-shadow: 1px 1px 5px 1px #000000;
+-webkit-box-shadow: 1px 1px 5px 1px #000000;
+-o-box-shadow: 1px 1px 5px 1px #000000;
+box-shadow: 1px 1px 5px 1px #000000;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=5)
+
+}
+
+form#paiement fieldset {
+  border: none;
+  margin-bottom: 10px;
+}
+
+form#paiement fieldset:last-of-type {
+  margin-bottom: 0;
+}
+
+form#paiement legend {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+form#paiement fieldset fieldset legend {
+  color: white;
+  font-size: 13px;
+  font-weight: normal;
+  padding-bottom: 0;
+}
+
+form#paiement ol li {
+  background: #2f2f30;
+  line-height: 30px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+form#paiement ol ol li {
+  background: none;
+  border: none;
+  float: left;
+}
+
+form#paiement label {
+  float: left;
+  font-size: 13px;
+  width: 390px;
+}
+form#paiement fieldset fieldset label {
+  padding: 0 0 0 30px;
+  width: auto;
+}
+
+form#paiement fieldset fieldset label:hover {
+  cursor: pointer;
+}
+
+form#paiement input:not([type=radio]),
+form#paiement textarea {
+  background: #f6f7fa;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+  width: 300px;
+}
+form#paiement input:not([type=submit]):focus,
+form#paiement textarea:focus {
+  background: #f5f6fa;
+}
+form#paiement input[type=radio] {
+  float: left;
+    margin-right: 5px;
+}
+
+form#paiement button {
+  background: #f5f6fa;
+  border-radius: 100px;
+  color: #2f2f30 ;
+  margin: auto;
+  padding: 7px 25px;
+}
+form#paiement button:hover {
+  background: #2f2f30;
+  color : #f5f6fa;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:700px){
+
+
+  
+  
+  html, body, h1, form, fieldset, legend, ol, li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Neutraface2TextDemi';
+  }
+  
+  #forumm{
+    background: url(../images/esp.jpg) no-repeat;
+    background-color:#f6f7fa ;
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    height: 75px;
+    
+    
+  
+  }
+  
+  
+  
+
+  
+  .brosse{
+    display: none;
+  }
+  
+
+  
+  form#paiement fieldset {
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  form#paiement fieldset:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  form#paiement legend {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  form#paiement fieldset fieldset legend {
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    padding-bottom: 0;
+  }
+  
+  form#paiement ol li {
+    background: #2f2f30;
+    line-height: 30px;
+    list-style: none;
+    padding: 5px 10px;
+    margin-bottom: 2px;
+  }
+  form#paiement ol ol li {
+    background: none;
+    border: none;
+    float: left;
+  }
+  
+  form#paiement label {
+    float: left;
+    font-size: 13px;
+    width: 390px;
+  }
+  form#paiement fieldset fieldset label {
+    padding: 0 0 0 30px;
+    width: auto;
+  }
+  
+  form#paiement fieldset fieldset label:hover {
+    cursor: pointer;
+  }
+  
+  form#paiement input:not([type=radio]),
+  form#paiement textarea {
+    background: #f6f7fa;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    width: 300px;
+  }
+  form#paiement input:not([type=submit]):focus,
+  form#paiement textarea:focus {
+    background: #f5f6fa;
+  }
+  form#paiement input[type=radio] {
+    float: left;
+      margin-right: 5px;
+  }
+  
+  form#paiement button {
+    background: #f5f6fa;
+    border-radius: 100px;
+    color: #2f2f30 ;
+    margin: auto;
+    padding: 7px 25px;
+  }
+  form#paiement button:hover {
+    background: #2f2f30;
+    color : #f5f6fa;
+    cursor: pointer;
+  }
+
+  ol li label{
+    margin-left:10px;
+
+  }
+
+}
